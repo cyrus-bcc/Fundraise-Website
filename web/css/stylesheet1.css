@@ -1,0 +1,154 @@
+#container{
+    height: 98vh;
+    width: 98vw;
+    display:flex;
+}
+.left{
+    width:50vw;
+    display:flex;
+}
+.right{
+    width:50vw;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction:column;
+}
+.purple-container{ 
+   width: 864px;
+   height: 100%;
+   left: 0px;
+   top: 0px;
+   position: relative; 
+   background-color: #4C2882;
+   border-radius: 0px 50px 50px 0px;
+   display:flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items:center;
+      
+}
+.subheading{
+   color: white;
+   font-size: 31px;
+   font-family: SF Pro Display;
+   font-weight: 400;
+}
+.title{
+   color: white; 
+   font-size: 150px; 
+   font-family: Intensa Fuente; 
+   font-weight: 400;
+}
+.center{}
+
+#survey-form{
+  width: 366px;
+  min-height: 200px;  
+  background: #D9D9D9; 
+  border-radius: 20px;
+  display:flex;
+  justify-content: center;
+  flex-direction: column;
+  padding:20px 0px 20px 0px;
+}
+#survey-form-e{
+  width: 366px;
+  max-height: 200px;  
+  background: #D9D9D9; 
+  border-radius: 20px;
+  display:flex;
+  justify-content: center;
+  flex-direction: column;
+  padding:20px 0px 20px 0px;
+}
+.survey-title{
+    width: 500px;
+    height: 76px;
+    text-align: center; 
+    color: black; 
+    font-size: 55px; 
+    font-family: SF Pro Display; 
+    font-weight: 700; 
+    
+}
+
+
+
+.form-group{
+  display:flex;
+  font-size:20px;
+  padding:5px;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+input,
+textarea,
+select {
+  width: 300px;
+  min-height: 2.5em;
+  border-radius: 50px;
+  border-color: inherit;
+  box-shadow:none;
+  border-style:none;
+}
+
+.form-group-title{
+ margin-right:auto;
+ margin-left: 10%;
+ color: black; 
+ font-size: 15px; 
+ font-family: SF Pro Display; 
+ font-weight: 700;
+ padding:2px;
+}
+
+input[type="submit"] {
+    display:block;
+    width: 161px; 
+    height: 56px; 
+    background: white; 
+    border-radius: 20px;
+    margin: 10px 0 10px 0;
+   
+    justify-content: center;
+    align-items:center;
+    font-size: 20px; 
+    font-family: SF Pro Display; 
+    font-weight: 700;
+}
+
+.text{
+ color: black; 
+ font-size: 15px; 
+ font-family: SF Pro Display; 
+ display:inline-flex;
+}
+
+.divider::before, .divider::after{
+    content:"";
+    height:2px;
+    width:40px;
+    background-color:#000;
+    display:block;
+    text-align: center;
+}
+
+.divider{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items:center;
+    column-gap:1.6rem;
+    text-align: center;
+}
+
+.boldLined{
+    font-weight: 700;
+    text-decoration: underline;
+}
+a{
+    text-decoration: none;
+    color:#000;
+}

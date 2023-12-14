@@ -1,0 +1,375 @@
+
+body, html {
+width: 100%;
+margin: 0;
+padding: 0;
+overflow-x: hidden; 
+
+display:flex;
+justify-content: center;
+align-content: center;
+}
+
+.container{
+display:flex;
+flex-direction:column;    
+justify-content: center;
+}
+
+.main-container {
+width: 743px; 
+height: 574px; 
+background: white; 
+box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.50); 
+border-radius: 20px;
+
+display:flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+
+.info-title {  
+text-align: center; 
+color: black; 
+font-size: 48px; 
+font-family: SF Pro Display; 
+font-weight: 700; 
+padding:10px;
+}
+.name{
+display:flex;
+width:100%;
+justify-content: space-around;
+padding:10px 10px;
+}
+
+.lname-container {
+width: 296px; 
+height: 81px; 
+}
+
+.name-box {
+width: 296px; 
+height: 81px; 
+       
+background: white; 
+box-shadow: 0px 6px 4px rgba(0, 0, 0, 0.25) inset; 
+border-radius: 20px; 
+border: 1px rgba(0, 0, 0, 0.11) solid;
+
+display:flex;
+align-items: center;
+justify-content: center;
+}
+
+#lname {
+width: 230px; 
+height: 30px; 
+         
+color: #8B8B8B; 
+font-size: 23px; 
+font-family: SF Pro Display; 
+font-weight: 600; 
+}
+
+.fname-container {
+width: 296px; 
+height: 81px; 
+}
+
+#fname {
+width: 230px; 
+height: 30px; 
+     
+color: #8B8B8B; 
+font-size: 23px; 
+font-family: SF Pro Display; 
+font-weight: 600; 
+}
+
+.long-container {
+width: 670px; 
+height: 81px; 
+
+display:flex;
+justify-content: center;
+
+padding:10px;
+}
+
+.long-box {
+width: 700px; 
+height: 81px; 
+   
+background: white; 
+box-shadow: 0px 6px 4px rgba(0, 0, 0, 0.25) inset; 
+border-radius: 20px; 
+border: 1px rgba(0, 0, 0, 0.11) solid;
+
+display:flex;
+align-items: center;
+justify-content: center;
+}
+
+#email-add {
+width: 580px; 
+height: 30px; 
+       
+color: #8B8B8B; 
+font-size: 23px; 
+font-family: SF Pro Display; 
+font-weight: 600; 
+}
+
+#category {
+width: 90%;
+height: 100%;
+border: none;
+outline: none;
+background-color: transparent;
+color: #8B8B8B;
+font-size: 23px;
+font-family: SF Pro Display;
+font-weight: 600;
+}
+               
+#email-add, #lname, #fname {
+border: none;
+outline: none;
+background-color: transparent;
+}
+
+input[type="submit"] {
+    
+border: none;
+outline: none;
+background-color: transparent;
+font-size: 25px;
+font-weight: 100;
+          
+width: 154.12px; 
+height: 70.19px; 
+background: #D9D9D9; 
+border-radius: 20px;
+transition: transform 0.1s ease-in-out;
+
+margin:10px;
+}
+
+input[type="submit"]:hover {
+font-weight: 700;
+transform: scale(1.02);
+}
+
+.page-number {
+display:flex;
+width:200px;
+justify-content: space-around;
+margin-top:50px;
+}
+
+.page-in {
+width: 19px; 
+height: 19px; 
+       
+background: #929090; 
+border-radius: 9999px;
+}
+
+.page-out {
+width: 19px; 
+height: 19px; 
+   
+background: #D9D9D9; 
+border-radius: 9999px;
+}
+
+#story {
+border: none;
+outline: none;
+background-color: transparent;
+font-size: 23px; 
+margin: 0;
+padding: 0; 
+}
+
+story textarea:focus::placeholder {
+color: transparent;
+}
+        
+.story-box {
+width: 667px; 
+height: 302px; 
+       
+background: white; 
+box-shadow: 0px 6px 4px rgba(0, 0, 0, 0.25) inset; 
+border-radius: 20px; 
+border: 1px rgba(0, 0, 0, 0.11) solid;
+}
+        
+        
+.img-border {
+width: 609px;
+height: 225px;
+        
+background: white;
+border-radius: 20px;
+border: 1px rgba(0, 0, 0, 0.50) solid;
+overflow: hidden;    
+
+display:flex;
+justify-content: center;
+align-content: center;
+}
+
+        .img-container {
+          width: 100%;
+          height: 100%;
+          background-position: center;
+          background-size: contain;
+ background-repeat: no-repeat;
+}
+
+
+
+.button-upload-container {
+width: 234px; 
+height: 70px; 
+          
+border: none;
+outline: none;
+background-color: transparent;
+font-size: 25px;
+
+
+background: #D9D9D9; 
+border-radius: 20px;
+transition: transform 0.1s ease-in-out;
+
+margin:10px;
+
+}
+
+.button-upload-box {
+width: 234px; 
+height: 70px; 
+ 
+background: #D9D9D9; 
+border-radius: 20px;   
+
+display:flex;
+justify-content: center;
+align-items: center;
+}
+
+.button-upload {
+
+width: 206.59px; 
+height: 30px; 
+        
+text-align: center; 
+color: #020202; 
+font-size: 27px; 
+font-family: SF Pro Display; 
+}
+        
+input[type="file"]:not(:disabled) + .button-upload-box:after {
+content: "File Selected";
+font-size: 14px;
+          
+transform: translate(-50%, -50%);
+}
+
+input[type="file"]:hover {
+font-weight: 700;
+transform: scale(1.02);
+}
+
+#amount {
+width: 580px; 
+height: 24.67px; 
+         
+color: #8B8B8B; 
+font-size: 23px; 
+font-family: SF Pro Display; 
+font-weight: 600; 
+
+
+border: none;
+outline: none;
+background-color: transparent;
+}
+    
+#date {
+width: 600px;
+height: 30px;
+         
+color: #8B8B8B;
+font-size: 23px;
+font-family: SF Pro Display;
+font-weight: 600;
+ 
+border: none; 
+outline: none;
+}
+
+#date::-webkit-calendar-picker-indicator {
+font-size: 34px;
+}
+   
+#popup {
+background-color: white;
+box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+z-index: 1001;
+    display: none;
+    
+ position: absolute;
+left: 50%;
+          transform: translate(-50%, -50%);
+          padding: 30px;
+   
+         
+}
+
+.popup-content {
+text-align: center;
+font-size: 24px;
+color: #020202;
+font-family: SF Pro Display;
+}
+
+.main-container-cp {
+width: 843px; 
+height: 674px; 
+background: white; 
+box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.50); 
+border-radius: 20px;
+
+display:flex;
+justify-content: space-evenly;
+align-items: center;
+flex-direction: column;
+}
+
+button {
+    
+border: none;
+outline: none;
+background-color: transparent;
+font-size: 25px;
+font-weight: 100;
+          
+width: 154.12px; 
+height: 70.19px; 
+background: #D9D9D9; 
+border-radius: 20px;
+transition: transform 0.1s ease-in-out;
+
+margin:10px;
+}
+
+button:hover {
+font-weight: 700;
+transform: scale(1.02);
+}
